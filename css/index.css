@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.drawBox {
+    width: 700px;
+    margin: 45px;
+}
+canvas {
+    border: 1px solid #f00;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0 #999;
+}
+.btnBox {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.btnBox li input {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ff0;
+    border: none;
+    outline: none;
+}
+.btnBox li input:hover {
+    background-color: #0ff;
+    cursor: pointer;
+}
